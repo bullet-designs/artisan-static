@@ -22,3 +22,44 @@ article {
     background: #2c303a;    
     border: 1px solid #2c303a;
 }
+
+
+.row{
+  display:flex;
+  justify-content:flex-start;
+  align-items:stretch;
+  flex-wrap:nowrap;
+  padding:10px;
+}
+.cell{
+  min-height:75px;
+  flex-grow:1;
+  flex-basis:100%;
+}
+#ihvb{
+  color:black;
+  height:651px;
+  width:368px;
+}
+#ivb1{
+  color:black;
+  height:650px;
+  width:348px;
+}
+#imjo{
+  height:670px;
+}
+#isyr{
+  flex-basis:163.6%;
+}
+#i4c4{
+  height:333px;
+  width:615px;
+  float:left;
+  margin:20% 0 0 0;
+}
+@media (max-width: 768px){
+  .row{
+    flex-wrap:wrap;
+  }
+}

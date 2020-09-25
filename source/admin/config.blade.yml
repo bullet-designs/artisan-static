@@ -22,5 +22,5 @@ collections:
       - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", timeFormat: false, pickerUtc: true, required: false}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Comments", name: "comments", widget: "boolean", default: true}
+      - {label: "Comments", name: "comments", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"}
